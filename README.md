@@ -23,7 +23,7 @@ El cliente nos pide la elaboración de un sistema mas cómodo para la gestión d
 
 Adoptamos metodologías agiles de trabajo, escribimos el backlog con diferentes requerimientos que iba a tener el proyecto, posteriormente planteamos los casos de uso, en este proyecto habían dos requerimientos principales a tener en cuenta:
 <ul>
-<li><strong>Cliente</strong>: Requiere de poder acceder mediante una credencial proporcionada, seguido debería poder descargar un PDF donde de manera detallada se describa en un resumen los gastos y el monto de dinero que adeuda.</li>
+<li><strong>Cliente</strong>: Requiere de poder acceder mediante una credencial proporcionada a una url, seguido debería poder descargar un PDF donde de manera detallada se describa en un resumen los gastos y el monto de dinero que adeuda.</li>
 <li><strong>Administrador</strong>: Tendría que ser capaz de llenar un único formulario proporcionando solo los datos absolutamente necesarios y que el programa no puede contemplar por factores externos.</li>
 </ul>
 
