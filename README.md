@@ -30,6 +30,7 @@ Adoptamos metodologías agiles de trabajo, escribimos el backlog con diferentes 
 Empezamos definiendo las tareas que realizaríamos en la semana, le dimos prioridad a las tareas que podíamos realizar y que nos llevarían a un producto tangible, en mi caso, me toco desarrollar la REST API que se encargaría de gestionar las request de entrada y salida, desde el frontend a la API, de la API a la base de datos, ida y vuelta, para esto primero diseñe y desarrollo una base de datos en MySQL, la misma se iria actualizando y refaccionando a medida que el proyecto avance.
 
 Me encarge de implementar y gestionar las siguientes rutas hasta el momento:
+
 <table>
   <tbody><tr>
    <td><strong>URI</strong>
@@ -57,5 +58,31 @@ Me encarge de implementar y gestionar las siguientes rutas hasta el momento:
   </tr>
 </tbody></table>
 
-Contemple la posibilidad de una vulnerabilidad SQL Injection, implemente las medidas correspondientes en cada ruta a la base de datos.
+<table>
+  <tbody><tr>
+   <td><strong>URI</strong>
+   </td>
+   <td><a href="http://localhost:3000/create_code" rel="nofollow">http://localhost:3000/create_code</a>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>METHOD</strong>
+   </td>
+   <td>POST
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Request Headers</strong>
+   </td>
+   <td>-
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Request Body</strong>
+   </td>
+   <td>-
+   </td>
+  </tr>
+</tbody></table>
 
+Contemple la posibilidad de una vulnerabilidad SQL Injection, implemente las medidas correspondientes en cada ruta a la base de datos.
