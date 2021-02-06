@@ -116,7 +116,7 @@ Me encarge de implementar y gestionar las siguientes rutas hasta el momento:
 
 <ul>
 <li><strong>SQL Injection</strong>: Contemple la posibilidad de una vulnerabilidad SQL Injection, implemente las medidas correspondientes en cada ruta a la base de datos como por ejemplo la utilización de query parameters.</li>
-<li><strong>Sesiones Cifradas</strong>: Implemente un sistema para el cifrado de las sessiones desde el lado del servidor mediante una key.</li>
+<li><strong>Sesiones Cifradas</strong>: Implemente un sistema para el cifrado de las sesiones desde el lado del servidor mediante una key, si bien las cookies que proporciona Flask no son seguras, no almaceno información critica en ellas, debido a que el proyecto es pequeño esta bien por ahora solo tomar esa consideración.</li>
 <li><strong>Gestion de rutas</strong>: Realice una buena gestion de las rutas, para asegurar de que se usen para lo que fueron programadas, de esta forma ningun usuario podra utilizarlas de una manera incorrecta.</li>
 </ul>
 
