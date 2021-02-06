@@ -56,5 +56,6 @@ Me encarge de implementar y gestionar las siguientes rutas hasta el momento:
    </td>
   </tr>
 </tbody></table>
-Me asegure de que no exista ninguna vulnerabilidad a SQL Injection implementando las medidas correspondientes en cada ruta a la base de datos.
+
+Contemple la posibilidad de una vulnerabilidad SQL Injection, implemente las medidas correspondientes en cada ruta a la base de datos.
 
