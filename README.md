@@ -21,3 +21,9 @@ El cliente nos pide la elaboración de un sistema mas cómodo para la gestión d
 <li><strong>Flask</strong>: Micro-framework utilizado para la elaboración de la REST API.</li>
 </ul>
 
+Adoptamos metodologías agiles de trabajo, escribimos el backlog con diferentes requerimientos que iba a tener el proyecto, posteriormente planteamos los casos de uso, en este proyecto habían dos requerimientos principales a tener en cuenta:
+<ul>
+<li><strong> </strong>: El cliente requiere de poder acceder mediante una credencial proporcionada, seguido debería poder descargar un PDF donde de manera detallada se describa en un resumen los gastos y el monto de dinero que adeuda.</li>
+<li><strong> </strong>: El administrador tendría que ser capaz de llenar un único formulario proporcionando solo los datos absolutamente necesarios y que el programa no puede contemplar por factores externos.</li>
+</ul>
+Empezamos definiendo las tareas que realizaríamos en la primera semana, le dimos prioridad a las tareas que podíamos realizar y que nos llevarían a un producto tangible, en mi caso, me toco desarrollar la REST API que se encargaría de gestionar las request de entrada y salida, desde el frontend a la API, de la API a la base de datos, ida y vuelta, para esto primero cree una base de datos en MySQL y una tabla de dos columnas 'id' y 'access_code', luego, en la API cree las 2 rutas necesarias, una para que el cliente pueda ingresar su código, la API se encarga de consultar en la base de datos y asegurarse de que es un código valido, de ser así, proporciona acceso a la pagina indicada, la otra ruta permite crear un código de acceso, ahora mismo con motivos de testeo, pero esta ruta y método serán accesibles solo para el administrador en un futuro. Me asegure de que no exista ninguna vulnerabilidad a SQL Injection implementando las practicas necesarias.
