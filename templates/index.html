@@ -1,10 +1,10 @@
-La REST API esta conectada a la ruta /verify_code,
+La REST API esta conectada a la ruta /login,
 al escribir el codigo en el campo y presionar el boton
 la API hace una consulta en la base de datos para verificar que el codigo sea valido, 
 de ser valido el codigo, se procede a proporcionar acceso a la pagina 
 donde el cliente podra acceder a la url donde se podra descargar el PDF.
 
-<form action="/verify_code" method="POST">
+<form action="/login" method="POST">
 
 	<input type="text" name="codigo" placeholder="Inserte su código">
 	<button type="submit">
