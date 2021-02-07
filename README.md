@@ -27,7 +27,7 @@ Adoptamos metodologías agiles de trabajo, escribimos el backlog con diferentes 
 <li><strong>Administrador</strong>: Tendría que ser capaz de llenar un único formulario proporcionando solo los datos absolutamente necesarios y que el programa no puede contemplar por factores externos.</li>
 </ul>
 
-Empezamos definiendo las tareas que realizaríamos en la semana, le dimos prioridad a las tareas que podíamos realizar y que nos llevarían a un producto tangible, utilizamos Trello para tener una vista amplia del estado del proyecto y Git para trabajar, en mi caso, me toco desarrollar la REST API que se encargaría de gestionar las request de entrada y salida, desde el frontend a la API, de la API a la base de datos, ida y vuelta, para esto primero diseñe y desarrollo una base de datos en MySQL, la misma se iria actualizando y refaccionando a medida que el proyecto avance.
+Empezamos definiendo las tareas que realizaríamos en la semana, le dimos prioridad a las tareas que podíamos realizar y que nos llevarían a un producto tangible, utilizamos Trello para tener una vista amplia del estado del proyecto y Git para trabajar, en mi caso, me toco desarrollar la REST API que se encargaría de gestionar las request de entrada y salida, desde el frontend a la API, de la API a la base de datos, ida y vuelta, para esto primero diseñe y desarrolle una base de datos en MySQL, la misma se iria actualizando y refaccionando a medida que el proyecto avance.
 
 Me encarge de implementar y gestionar las siguientes rutas hasta el momento:
 
